@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya singh | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Aditya singh</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="mobile-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <h3 class="hero-greeting">Hello,</h3>
+                <h1 class="hero-name">I'm <span>Aditya singh</span></h1>
+                <h2 class="hero-role">FullStack Developer</h2>
+                <p class="hero-description">I’m a Computer Science student specializing in Artificial Intelligence with
+                    a strong interest in web development.
+                    I build responsive and user-friendly websites using HTML, CSS, JavaScript, and modern tools.
+                    I enjoy learning new technologies and turning ideas into clean, functional digital experiences</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Got a project?</a>
+                    <a href="#" class="btn btn-secondary">My resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Profile Image Placeholder Box -->
+                <div class="image-box">
+                    <img src="../webpicture/potfolio.jpeg" alt="picture" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-container">
+            <div class="section-header">
+                <h2 class="section-title">About me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a curious and motivated Computer Science student who loves learning how things work.
+                        I enjoy creating websites and turning simple ideas into real, working projects.
+                        I like clean design, logical thinking, and improving my skills a little every day.
+                        I believe consistency and practice are the keys to becoming a good developer.
+                        My goal is to grow into a confident software developer and build meaningful technology in the
+                        future</p>
+                </div>
+                <!-- Optional statistics/highlights -->
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects Done</p>
+                    </div>
+                    <div class="stat">
+                        <h3>95%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Card Placeholder -->
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <p>Javascript</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">React</div>
+                    <p>React</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">git</div>
+                    <p>git</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">github</div>
+                    <p>github</p>
+                </div>
+                <!-- Add more skill cards as needed -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card Placeholder -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="../webpicture/Utkarsh.jpg" alt="loading img" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>College Fest Utkarsh(2026)</h3>
+                        <p>Short project description text placeholder explaining the project goals and tech stack.</p>
+                        <div class="project-links">
+                            <a href="https://bbd-utkarsh.org/" class="btn-link">Live Demo</a>
+                            <a href="#" class="btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for more projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>Project Image Placeholder</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title Placeholder</h3>
+                        <p>Short project description text placeholder explaining the project goals and tech stack.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link">Live Demo</a>
+                            <a href="#" class="btn-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Aditya singh. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aditya-singh-a3173a27a/">LinkedIn</a>
+                <a href="https://github.com/Adityasingh-an">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
