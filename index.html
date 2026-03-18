@@ -87,23 +87,83 @@
                 <h2 class="section-title">About me</h2>
             </div>
             <div class="about-content">
-                <div class="about-text">
-                    <p>I am a curious and motivated Computer Science student who loves learning how things work.
-                        I enjoy creating websites and turning simple ideas into real, working projects.
-                        I like clean design, logical thinking, and improving my skills a little every day.
-                        I believe consistency and practice are the keys to becoming a good developer.
-                        My goal is to grow into a confident software developer and build meaningful technology in the
-                        future</p>
-                </div>
-                <!-- Optional statistics/highlights -->
-                <div class="about-stats">
-                    <div class="stat">
-                        <h3>10+</h3>
-                        <p>Projects Done</p>
+                <div class="about-text-container">
+                    <div class="about-text">
+                        <p>I am a curious and motivated Computer Science student who loves learning how things work.
+                            I enjoy creating websites and turning simple ideas into real, working projects.
+                            I like clean design, logical thinking, and improving my skills a little every day.
+                            I believe consistency and practice are the keys to becoming a good developer.
+                            My goal is to grow into a confident software developer and build meaningful technology in
+                            the
+                            future</p>
                     </div>
-                    <div class="stat">
-                        <h3>95%</h3>
-                        <p>Client Satisfaction</p>
+                    <!-- Stats moved below description -->
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Done</p>
+                        </div>
+                        <div class="stat">
+                            <h3>95%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-box">
+                        <img src="../webpicture/Aboutpic.jpeg" alt="Aditya Singh" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section-container">
+            <div class="section-header education-header">
+                <div class="education-title-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="edu-cap">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                    </svg>
+                    <h2 class="section-title">My Education</h2>
+                </div>
+                <p class="section-tagline">Education Is Not The Learning Of Facts, But The Training Of The Mind To
+                    Think.</p>
+            </div>
+            <div class="education-list">
+                <div class="education-card">
+                    <div class="edu-image">
+                        <img src="../webpicture/Bbdu.jpg" alt="Zeal College"
+                            onerror="this.src='https://placehold.co/400x250/121f2d/ffffff?text=University+of+Aditya'">
+                    </div>
+                    <div class="edu-info">
+                        <h3>Bachelor Of Technology  In Computer Science (AI)</h3>
+                        <p class="edu-place">Babu Banarsi Das University  | BBDU</p>
+                        <p class="edu-date">2023-2027 | <span>Pursuing</span></p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="edu-image">
+                        <img src="../webpicture/Tss.jpg" alt="High School"
+                            onerror="this.src='https://placehold.co/400x250/121f2d/ffffff?text=High+School'">
+                    </div>
+                    <div class="edu-info">
+                        <h3>Higher Secondary Education (PCM)</h3>
+                        <p class="edu-place">The Sun Shine Seniour Secondary School | CBSE</p>
+                        <p class="edu-date">2019-2021 | <span>Completed</span></p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="edu-image">
+                        <img src="../webpicture/Tss.jpg" alt="High School"
+                            onerror="this.src='https://placehold.co/400x250/121f2d/ffffff?text=High+School'">
+                    </div>
+                    <div class="edu-info">
+                        <h3>High School Education  </h3>
+                        <p class="edu-place">The Sun Shine Seniour Secondary School | CBSE</p>
+                        <p class="edu-date">2017-2019 | <span>Completed</span></p>
                     </div>
                 </div>
             </div>
@@ -114,33 +174,9 @@
             <div class="section-header">
                 <h2 class="section-title">Skills</h2>
             </div>
-            <div class="skills-grid">
-                <!-- Skill Card Placeholder -->
-                <div class="skill-card">
-                    <div class="skill-icon">HTML</div>
-                    <p>HTML5</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">CSS</div>
-                    <p>CSS3</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">JS</div>
-                    <p>Javascript</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">React</div>
-                    <p>React</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">git</div>
-                    <p>git</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">github</div>
-                    <p>github</p>
-                </div>
-                <!-- Add more skill cards as needed -->
+            <div class="skills-grid tight-grid">
+                <!-- Skills are dynamically populated from script.js -->
+                <!-- To add a new skill, simply add an object to the skillsData array in script.js -->
             </div>
         </section>
 
@@ -153,25 +189,46 @@
                 <!-- Project Card Placeholder -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="../webpicture/Utkarsh.jpg" alt="loading img" loading="lazy">
+                        <img src="../webpicture/Utkarsh.jpg" alt="Utkarsh Fest" loading="lazy">
                     </div>
                     <div class="project-info">
-                        <h3>College Fest Utkarsh(2026)</h3>
-                        <p>Short project description text placeholder explaining the project goals and tech stack.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>Talwind</span>
+                        </div>
+                        <h3>College Fest Utkarsh</h3>
+                        <p>A dynamic event management website for a college fest, featuring schedules, registration
+                            modules, and interactive elements.</p>
                         <div class="project-links">
                             <a href="https://bbd-utkarsh.org/" class="btn-link">Live Demo</a>
-                            <a href="#" class="btn-link">Source Code</a>
+                            <a href="https://github.com/shamshad2299/Utkarsh_2026" class="btn-link">Source Code</a>
                         </div>
                     </div>
                 </div>
-                <!-- Repeat for more projects -->
                 <div class="project-card">
                     <div class="project-image">
-                        <span>Project Image Placeholder</span>
+                        <img src="../webpicture/portfolioproject.jpeg" alt="portfolio" loading="lazy">
+                        <!-- <div class="placeholder-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+                                <circle cx="9" cy="9" r="2" />
+                                <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+                            </svg>
+                        </div> -->
                     </div>
                     <div class="project-info">
-                        <h3>Project Title Placeholder</h3>
-                        <p>Short project description text placeholder explaining the project goals and tech stack.</p>
+                        <div class="project-tags">
+                            <span>HTML </span>
+                            <span>CSS</span>
+                            <span> JS</span>
+                        </div>
+                        <h3>Personal Portfolio V2</h3>
+                        <p>A premium portfolio design focusing on smooth UX and modern aesthetic trends like
+                            glassmorphism.</p>
                         <div class="project-links">
                             <a href="#" class="btn-link">Live Demo</a>
                             <a href="#" class="btn-link">Source Code</a>
